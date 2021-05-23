@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="20" result="Failed" total="20" passed="13" failed="5" inconclusive="1" skipped="1" asserts="17" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2021-05-12 16:02:54Z" end-time="2021-05-12 16:02:59Z" duration="5.437556">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe"  NunitSchool.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1026" name="NunitSchool.dll" fullname="C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\bin\Debug\NunitSchool.dll" runstate="Runnable" testcasecount="20" result="Failed" site="Child" start-time="2021-05-12T16:02:54.5084891Z" end-time="2021-05-12T16:02:59.5274864Z" duration="5.018749" total="20" passed="13" failed="5" warnings="0" inconclusive="1" skipped="1" asserts="17">
+    <environment framework-version="3.13.2.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\bin\Debug" machine-name="DESKTOP-327B2HP" user="Admin" user-domain="DESKTOP-327B2HP" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="16" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="All" />
+      <property name="LevelOfParallelism" value="10" />
+      <property name="_PID" value="21120" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1028" name="NunitSchoolNameSpace" fullname="NunitSchoolNameSpace" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2021-05-12T16:02:54.5204550Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.097910" total="15" passed="9" failed="4" warnings="0" inconclusive="1" skipped="1" asserts="12">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1007" name="MyTestClass" fullname="NunitSchoolNameSpace.MyTestClass" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2021-05-12T16:02:54.5204550Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.097885" total="15" passed="9" failed="4" warnings="0" inconclusive="1" skipped="1" asserts="12">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1008" name="SimpleTestCheck" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestCheck" methodname="SimpleTestCheck" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="1796672205" result="Passed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.5264111Z" duration="0.003467" asserts="0" />
+        <test-case id="0-1025" name="SimpleTestPassIgnored" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestPassIgnored" methodname="SimpleTestPassIgnored" classname="NunitSchoolNameSpace.MyTestClass" runstate="Ignored" seed="1107157981" result="Skipped" label="Ignored" start-time="2021-05-12T16:02:54.5284058Z" end-time="2021-05-12T16:02:54.5294030Z" duration="0.000455" asserts="0">
+          <properties>
+            <property name="_SKIPREASON" value="Test is currently blocked by defect and should not be executed!" />
+          </properties>
+          <reason>
+            <message><![CDATA[Test is currently blocked by defect and should not be executed!]]></message>
+          </reason>
+        </test-case>
+        <test-case id="0-1009" name="SimpleTestPass" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestPass" methodname="SimpleTestPass" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="1578731206" result="Passed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.5862511Z" duration="0.062453" asserts="1" />
+        <test-case id="0-1024" name="SimpleTestPassInfoAttributes" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestPassInfoAttributes" methodname="SimpleTestPassInfoAttributes" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="2021722338" result="Passed" start-time="2021-05-12T16:02:54.5294030Z" end-time="2021-05-12T16:02:54.5862511Z" duration="0.057448" asserts="1">
+          <properties>
+            <property name="Author" value="myName" />
+            <property name="Category" value="myCategory" />
+            <property name="Description" value="This test used to show how info attributes works!" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1015" name="SimpleTestTestCase" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCase" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.5892431Z" duration="0.066446" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1014" name="SimpleTestTestCase(&quot;John&quot;,&quot;John Doe&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCase(&quot;John&quot;,&quot;John Doe&quot;)" methodname="SimpleTestTestCase" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="2057522305" result="Passed" start-time="2021-05-12T16:02:54.5862511Z" end-time="2021-05-12T16:02:54.5882455Z" duration="0.001962" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1017" name="SimpleTestTestCaseExpected" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseExpected" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.5942295Z" duration="0.070537" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1016" name="SimpleTestTestCaseExpected(&quot;John&quot;,&quot;John Doe&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseExpected(&quot;John&quot;,&quot;John Doe&quot;)" methodname="SimpleTestTestCaseExpected" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="1090365009" result="Passed" start-time="2021-05-12T16:02:54.5862511Z" end-time="2021-05-12T16:02:54.5942295Z" duration="0.007487" asserts="1" />
+        </test-suite>
+        <test-case id="0-1013" name="SimpleTestAssume" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestAssume" methodname="SimpleTestAssume" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="44198281" result="Inconclusive" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.6152024Z" duration="0.091806" asserts="0">
+          <reason>
+            <message><![CDATA[  Test should be executed on chrome only
+  Expected: True
+  But was:  False
+]]></message>
+          </reason>
+        </test-case>
+        <test-case id="0-1010" name="SimpleTestFail" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestFail" methodname="SimpleTestFail" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="771521464" result="Failed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.095045" asserts="1">
+          <failure>
+            <message><![CDATA[  Expected string length 5 but was 12. Strings differ at index 5.
+  Expected: "Hello"
+  But was:  "Hello World!"
+  ----------------^
+]]></message>
+            <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestFail() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 32
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Expected string length 5 but was 12. Strings differ at index 5.
+  Expected: "Hello"
+  But was:  "Hello World!"
+  ----------------^
+]]></message>
+              <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestFail() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 32
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="0-1023" name="SimpleTestTestCaseSource" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.094720" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1018" name="SimpleTestTestCaseSource(&quot;John Doe&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(&quot;John Doe&quot;)" methodname="SimpleTestTestCaseSource" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="1054131983" result="Passed" start-time="2021-05-12T16:02:54.5902401Z" end-time="2021-05-12T16:02:54.5902401Z" duration="0.000180" asserts="1" />
+          <test-case id="0-1019" name="SimpleTestTestCaseSource(&quot;Not John Doe&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(&quot;Not John Doe&quot;)" methodname="SimpleTestTestCaseSource" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="817376891" result="Passed" start-time="2021-05-12T16:02:54.5902401Z" end-time="2021-05-12T16:02:54.5902401Z" duration="0.000030" asserts="1" />
+          <test-case id="0-1020" name="SimpleTestTestCaseSource(&quot;John Doe is there!&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(&quot;John Doe is there!&quot;)" methodname="SimpleTestTestCaseSource" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="802909556" result="Passed" start-time="2021-05-12T16:02:54.5902401Z" end-time="2021-05-12T16:02:54.5902401Z" duration="0.000022" asserts="1" />
+          <test-case id="0-1021" name="SimpleTestTestCaseSource(&quot;John Not Doe&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(&quot;John Not Doe&quot;)" methodname="SimpleTestTestCaseSource" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="683096492" result="Passed" start-time="2021-05-12T16:02:54.5902401Z" end-time="2021-05-12T16:02:54.5902401Z" duration="0.000018" asserts="1" />
+          <test-case id="0-1022" name="SimpleTestTestCaseSource(&quot;Joe Doe&quot;)" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(&quot;Joe Doe&quot;)" methodname="SimpleTestTestCaseSource" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="1662166212" result="Failed" start-time="2021-05-12T16:02:54.5902401Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.027556" asserts="1">
+            <failure>
+              <message><![CDATA[  Provided value doesn't contain expected text!
+  Expected: String containing "John"
+  But was:  "Joe Doe"
+]]></message>
+              <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(String val1) in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 96
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Provided value doesn't contain expected text!
+  Expected: String containing "John"
+  But was:  "Joe Doe"
+]]></message>
+                <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestTestCaseSource(String val1) in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 96
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+        <test-case id="0-1011" name="SimpleTestFailWithMessage" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestFailWithMessage" methodname="SimpleTestFailWithMessage" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="525166010" result="Failed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.094733" asserts="1">
+          <failure>
+            <message><![CDATA[  Actual result differs from expected!
+  Expected string length 5 but was 12. Strings differ at index 5.
+  Expected: "Hello"
+  But was:  "Hello World!"
+  ----------------^
+]]></message>
+            <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestFailWithMessage() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 40
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Actual result differs from expected!
+  Expected string length 5 but was 12. Strings differ at index 5.
+  Expected: "Hello"
+  But was:  "Hello World!"
+  ----------------^
+]]></message>
+              <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestFailWithMessage() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 40
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1012" name="SimpleTestConstraintFailWithMessage" fullname="NunitSchoolNameSpace.MyTestClass.SimpleTestConstraintFailWithMessage" methodname="SimpleTestConstraintFailWithMessage" classname="NunitSchoolNameSpace.MyTestClass" runstate="Runnable" seed="784365394" result="Failed" start-time="2021-05-12T16:02:54.5234205Z" end-time="2021-05-12T16:02:54.6181663Z" duration="0.095092" asserts="1">
+          <failure>
+            <message><![CDATA[  Login page title text differs from expected!
+  Expected: True
+  But was:  False
+]]></message>
+            <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestConstraintFailWithMessage() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 48
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Login page title text differs from expected!
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at NunitSchoolNameSpace.MyTestClass.SimpleTestConstraintFailWithMessage() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest1.cs:line 48
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" id="0-1027" name="NunitSchool" fullname="NunitSchool" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-05-12T16:02:54.5204550Z" end-time="2021-05-12T16:02:59.5274864Z" duration="5.007194" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="5">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="MyTestClass2" fullname="NunitSchool.MyTestClass2" classname="NunitSchool.MyTestClass2" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-05-12T16:02:54.5204550Z" end-time="2021-05-12T16:02:54.5962242Z" duration="0.075799" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="0-1001" name="TestWithSetUpTearDownAttributes" fullname="NunitSchool.MyTestClass2.TestWithSetUpTearDownAttributes" methodname="TestWithSetUpTearDownAttributes" classname="NunitSchool.MyTestClass2" runstate="Runnable" seed="1632225078" result="Passed" start-time="2021-05-12T16:02:54.5942295Z" end-time="2021-05-12T16:02:54.5952270Z" duration="0.001745" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1002" name="ParallelTests" fullname="NunitSchool.ParallelTests" classname="NunitSchool.ParallelTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-05-12T16:02:54.5204550Z" end-time="2021-05-12T16:02:59.5274864Z" duration="5.006936" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1006" name="TestMethod4" fullname="NunitSchool.ParallelTests.TestMethod4" methodname="TestMethod4" classname="NunitSchool.ParallelTests" runstate="Runnable" seed="378390502" result="Failed" start-time="2021-05-12T16:02:54.5224218Z" end-time="2021-05-12T16:02:56.5383009Z" duration="2.015457" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <failure>
+            <message><![CDATA[  fsdfadfas
+  Expected: not equal to "John"
+  But was:  "John"
+]]></message>
+            <stack-trace><![CDATA[   at NunitSchool.ParallelTests.TestMethod4() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest3.cs:line 38
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  fsdfadfas
+  Expected: not equal to "John"
+  But was:  "John"
+]]></message>
+              <stack-trace><![CDATA[   at NunitSchool.ParallelTests.TestMethod4() in C:\Users\orestsyn\source\repos\NunitSchool\NunitSchool\UnitTest3.cs:line 38
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1004" name="TestMethod2" fullname="NunitSchool.ParallelTests.TestMethod2" methodname="TestMethod2" classname="NunitSchool.ParallelTests" runstate="Runnable" seed="223471925" result="Passed" start-time="2021-05-12T16:02:54.5224218Z" end-time="2021-05-12T16:02:57.5312877Z" duration="3.008164" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+        </test-case>
+        <test-case id="0-1005" name="TestMethod3" fullname="NunitSchool.ParallelTests.TestMethod3" methodname="TestMethod3" classname="NunitSchool.ParallelTests" runstate="Runnable" seed="917910869" result="Passed" start-time="2021-05-12T16:02:54.5224218Z" end-time="2021-05-12T16:02:58.5304214Z" duration="4.007174" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+        </test-case>
+        <test-case id="0-1003" name="TestMethod1" fullname="NunitSchool.ParallelTests.TestMethod1" methodname="TestMethod1" classname="NunitSchool.ParallelTests" runstate="Runnable" seed="1255627329" result="Passed" start-time="2021-05-12T16:02:54.5224218Z" end-time="2021-05-12T16:02:59.5274864Z" duration="5.004291" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
